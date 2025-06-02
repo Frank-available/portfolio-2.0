@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project 4 – Simulated Network (ESAIP University)</title>
+  <link rel="stylesheet" href="../mystyle/style.css" />
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="btn">← Back to Portfolio</a>
+  </header>
+
+  <main class="project-details">
+    <h2>Simulated Network Presentation – ESAIP University</h2>
+    <p>
+      This project implements a complete and hierarchical network infrastructure for ESAIP University, spread across two buildings:
+      <strong>Building A</strong> (Administration, IT, Teaching) and <strong>Building B</strong> (Student Services, Labs, Academic Departments).
+    </p>
+    <p>
+      Both buildings are interconnected via two CORE routers providing <strong>traffic redundancy</strong>, and connected to an ISP router,
+      offering external access, notably for a remote client (home) through a NAT-ed link.
+    </p>
+
+    <h3>Technical Objectives:</h3>
+    <ul>
+        <li>Efficient IP addressing plan using <strong>VLSM</strong></li>
+        <li>Configuration of <strong>switches</strong> with port security</li>
+        <li>Creation of <strong>VLANs</strong> for network segmentation and <strong>inter-VLAN routing</strong></li>
+        <li>Implementation of <strong>dynamic routing with OSPF</strong></li>
+        <li>Deployment of <strong>DHCP</strong> for automatic IP address assignment</li>
+        <li><strong>NAT/PAT</strong> to allow internal networks to access the Internet</li>
+        <li>Access to a <strong>local web server</strong> from the outside</li>
+        <li><strong>Bonus:</strong> Setup of ACLs to enhance internal communication security</li>
+    </ul>
+    <p>
+      This project demonstrates a professional approach to network design and simulation in an academic setting.
+    </p>
+
+    <h2>System Illustrations</h2>
+    <div class="image-gallery">
+        <img src="../images/tuto_anglais_reseau.png" alt="Network screenshot 1" class="zoomable" />
+        <img src="../images/tuto_anglais_reseau2.png" alt="Network screenshot 2" class="zoomable" />
+        <img src="../images/tuto_anglais_reseau3.png" alt="Network screenshot 3" class="zoomable" />
+        <img src="../images/tuto_anglais_reseau4.png" alt="Network screenshot 4" class="zoomable" />
+    </div>
+
+    <h2>Technologies and Tools Used</h2>
+    <ul>
+        <li>Network simulation tools: <strong>Cisco Packet Tracer</strong></li>
+        <li>Routing protocol: <strong>OSPF (Open Shortest Path First)</strong></li>
+        <li>Network technologies: <strong>VLAN, Inter-VLAN Routing, DHCP, NAT/PAT, ACL</strong></li>
+        <li>IP planning: <strong>VLSM (Variable Length Subnet Masking)</strong></li>
+        <li>Simulated equipment: <strong>Switches, Routers, Servers</strong></li>
+    </ul>
+
+    <h2>Downloads</h2>
+    <p>You can view or download the project-related files:</p>
+    <ul>
+        <li>
+            📄 <a href="../files_download/TP Final - Réseaux Routage et Communication.pdf" download target="_blank">Download the project report (PDF)</a>
+        </li>
+        <li>
+            📦 <a href="../files_download/TP Final Réseaux  Routage et Communication (2).pkt" download>Download the traced network data (.pkt)</a>
+        </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Danh & Franck. All rights reserved.</p>
+  </footer>
+
+  <div id="overlay" class="overlay">
+    <span class="close-btn">❌</span>
+    <img id="overlay-img" src="" alt="Zoomed image" />
+  </div>
+
+  <script src="../mystyle/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio</title>
+    <link rel="stylesheet" href="mystyle/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Home</a></li>
+                <li><a href="#apropos">About</a></li>
+                <li><a href="#projets">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Hello, we are <span class="highlight">Danh and Franck</span></h1>
+                <p>Beginner Web Developers</p>
+
+                <div class="profile-slider">
+                    <div class="profile-slider-track">
+                        <img src="https://images.unsplash.com/photo-1605379399843-5870eea9b74e?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.1" alt="Profile photo" class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.2" alt="Profile photo" class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.3" alt="Profile photo" class="profile-img">
+                    </div>
+                </div>
+
+                <a href="#projets" class="btn">See our projects</a>
+            </div>
+        </section>
+
+        <section id="apropos" class="about">
+            <h2>About Us</h2>
+
+            <div class="about-carousel-container">
+                <div class="about-carousel">
+                    <img src="images/photo etudiant.jpg" alt="Photo of Danh" class="about-profile-img danh-img" />
+                    <img src="images/tuto_ang_picture_franck.jpg" alt="Photo of Franck" class="about-profile-img franck-img" />
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="portfolio-intro">
+                    <h1>👋 Welcome to our portfolio!</h1>
+                    <p>
+                        We are <strong>Danh</strong> and <strong>Franck</strong>, two students passionate about
+                        <strong>computer science</strong> and <strong>web development</strong>.
+                        This portfolio reflects our journey, skills, and eagerness to learn and create — even as beginners.
+                    </p>
+                    <p>
+                        Through our projects, we explore the fundamentals of <strong>HTML, CSS, and JavaScript</strong>,
+                        while learning to build modern, interactive, and functional websites.
+                    </p>
+                    <p><em>We hope you enjoy discovering our work as much as we enjoyed building it!</em></p>
+                </div>
+
+                <div class="about-text">
+                    <p>Our current skills include:</p>
+                    <ul class="skills">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="projects">
+            <h2>Our Projects</h2>
+            <div class="project-carousel-container">
+                <div class="project-carousel">
+                    <div class="project-card">
+                        <img src="images/tuto anglais_komix.png" alt="Project 1">
+                        <h3>Project 1</h3>
+                        <p>Design of an e-commerce site for dropshipping.</p>
+                        <a href="scripts/projet1.html" class="btn">Read more</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/background_projet2.png" alt="Project 2">
+                        <h3>Project 2</h3>
+                        <p>Embedded systems project using Arduino.</p>
+                        <a href="scripts/projet2.html" class="btn">Read more</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/tuto_anglais_mainspoon2.png" alt="Project 3">
+                        <h3>Project 3</h3>
+                        <p>Creating customer reviews for product pages.</p>
+                        <a href="scripts/projet3.html" class="btn">Read more</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/tuto_anglais_reseau.png" alt="Project 4">
+                        <h3>Project 4</h3>
+                        <p>Secure campus network.</p>
+                        <a href="scripts/projet4.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Our Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="mystyle/script.js"></script>
+</body>
+</html>
